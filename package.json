@@ -6,12 +6,12 @@
   "author": "Arthur Cabral <63428806+CabralArthur@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon index.js"
+    "start:dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.18.1",
-    "http": "^0.0.1-security",
-    "socket.io": "^4.5.0"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
